@@ -40,14 +40,24 @@ p {
   margin: 0 auto;  
 }
 
- button {
+button {
   .custom-butt(5px, @porcelain, @btn-bg-color);
   font-size: medium;
   width: 100px;
   padding: 5px 0;
   text-align: center; 
   border: none;
+  
   &:hover {
     .custom-butt-ani();
   }
+
+  @media @mobile {
+    width: 100%;
+    padding: 6% 0;
+    &:hover {
+      .custom-butt-ani();
+    }
+  }
+
 }
