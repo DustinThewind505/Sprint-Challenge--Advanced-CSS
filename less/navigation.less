@@ -14,10 +14,12 @@
     a {
         text-decoration: none;
         color: @ebony-clay;
-        padding: 0 2%;
+        padding: 0 1%;
         font-size: medium;
         &:hover {
             .nav-ani();
+        } @media @mobile {
+            padding: 0 2%;
         }
     }
 

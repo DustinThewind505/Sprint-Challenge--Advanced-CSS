@@ -216,12 +216,17 @@ button:hover {
 .nav-header a {
   text-decoration: none;
   color: #23293B;
-  padding: 0 2%;
+  padding: 0 1%;
   font-size: medium;
 }
 .nav-header a:hover {
   text-decoration: underline;
   color: #81848E;
+}
+@media (max-width: 500px) {
+  .nav-header a {
+    padding: 0 2%;
+  }
 }
 .nav-header nav {
   width: 100%;
