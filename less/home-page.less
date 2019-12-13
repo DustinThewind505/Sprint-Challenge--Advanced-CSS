@@ -10,6 +10,10 @@
 
     p {
       padding:0 15px;
+    } 
+
+    img {
+      border-radius: 5px;
     }
   
   }
@@ -24,6 +28,21 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+    }
+
+    @media @mobile {
+
+        .blast {
+          width: 100%;
+        }
+
+        .sky{
+          display: none;
+        }
+
+        .launch {
+          display: none;
+        }
     }
   }
 
@@ -57,6 +76,10 @@
         margin-bottom: 26px;
       }
 
+      @media @mobile {
+        width: 100%;
+      }
+
     }
 
     .walk-img {
@@ -68,6 +91,16 @@
         height: auto;
         border-radius: 10px;
       }
+
+      @media @mobile {
+        width: 100%;
+      }
     }
+    
+    @media @mobile {
+      .align-column(flex, column-reverse, center);
+    }
+
+
   }
 }// home
