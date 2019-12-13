@@ -1,0 +1,81 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceWalkers</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+    <header class="nav-header">
+        <h1>SpaceWalkers</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Blog</a>
+            <a id="selected" href="#">Contact</a>
+            <a href="#">Sign In</a>
+        </nav>
+    </header>
+
+    <div class="container home">
+
+        <header class="intro">
+            <img src="img/main-header.png" alt="earth from space">
+        </header>
+        <div>
+            <form>
+                <h1>Subscribe to SpaceWalkers Magazine!</h1>
+                <label id="name-label" for="name">*Name
+                    <input id="name" type="text" placeholder="Enter name" required>
+                </label>
+                <label id="email-label" for="email">*Email
+                    <input id="email" type="email" placeholder="Enter Email" required>
+                </label>
+                <label id="number-label" for="number">*Age
+                    <input id="number" type="number" min="69" max="420" placeholder="Age" required>
+                </label>
+
+                <label id="dropdown-label">How <strong><u>stoked</u></strong> are you?</label>
+                <select id="dropdown">
+                    <option value="great">Super</option>
+                    <option value="swell">Hella</option>
+                    <option value="fine-thankyou">Totally</option>
+                    <option value="meh">Meh</option>
+                </select><br><br>
+
+                
+
+
+                <ul>I will share these with
+                    <li><label>
+                            <input type="checkbox" name="checkbox-buttons" value="exile">
+                        </label>My parents</li>
+                    <li><label>
+                            <input type="checkbox" name="checkbox-buttons" value="exile">
+                        </label>My friends</li>
+                    <li><label>
+                            <input type="checkbox" name="checkbox-buttons" value="or exile">
+                        </label>My pets</li>
+                </ul>
+                <textarea placeholder="Enter all of your parents e-mail addresses here"></textarea>
+                <button id="submit" type="submit">Subscribe</button>
+            </form>
+        </div>
+        <footer>
+            <p>Copyright SpaceWalkers 2019</p>
+        </footer>
+    </div>
+</body>
+
+</html>

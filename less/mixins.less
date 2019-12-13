@@ -1,1 +1,30 @@
 // Mixins Here
+.nav-mix(@bg-color, @font){
+    background-color: @bg-color;
+    font-family: @font;
+}
+
+.nav-ani() {
+    text-decoration: underline;
+    color: @waterloo;
+}
+
+.custom-butt(@b-radius, @f-color, @bg-color) {
+    border-radius: @b-radius;
+    background-color: @bg-color;
+    color: @f-color;
+}
+
+.custom-butt-ani() {
+    color: @btn-bg-color;
+    transition: 1s;
+    background-color: @wild-sand;
+    cursor: url(http://cur.cursors-4u.net/mechanics/mec-1/mec5.cur), default;
+}
+
+.align-column(@disp, @f-direction, @align-i) {
+    display: @disp;
+    flex-direction: @f-direction;
+    align-items: @align-i;
+}
+

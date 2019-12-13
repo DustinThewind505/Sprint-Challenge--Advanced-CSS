@@ -17,6 +17,10 @@ h1, h2, h3, h4, h5 {
   color: @header-font-color;
 }
 
+h1 {
+  font-size: 3.6rem;
+}
+
 h2 {
   font-size: 3.2rem;
 }
@@ -36,3 +40,33 @@ p {
   margin: 0 auto;  
 }
 
+button {
+  .custom-butt(5px, @porcelain, @btn-bg-color);
+  font-size: medium;
+  width: 100px;
+  padding: 5px 0;
+  text-align: center; 
+  border: none;
+  
+  &:hover {
+    .custom-butt-ani();
+  }
+
+  @media @mobile {
+    width: 100%;
+    padding: 6% 0;
+    &:hover {
+      .custom-butt-ani();
+    }
+  }
+
+}
+
+#selected {
+  text-decoration: none;
+  cursor: default;
+}
+
+#selected:hover {
+  color: @ebony-clay;
+}

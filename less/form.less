@@ -1,0 +1,54 @@
+form {
+    border: double;
+    border-radius: 3px;
+    width: 100%;
+    color: @ebony-clay;
+    background-color: @shuttle-gray;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  
+  #dropdown {
+    border-radius: 100px;
+  }
+  
+  label {
+    padding: 1%;
+  }
+  
+  ul {
+      width:25%;
+      padding-top: 3% 0;
+  }
+
+  li {
+    list-style: none;
+  }
+  
+  input {
+    height: 20px;
+  }
+  
+  #dropdown {
+    height: 2%;
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  textarea {
+    width: 200px;
+    height: 100px;
+  }
+
+  h1 {
+      text-align: center;
+  }
+
+  @media @mobile {
+      width: 100%;
+      .align-column(flex, column, center);
+      justify-content: center;
+  }
+}
