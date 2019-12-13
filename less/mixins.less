@@ -1,1 +1,24 @@
 // Mixins Here
+.nav-mix(@bg-color, @font){
+    background-color: @bg-color;
+    font-family: @font;
+}
+
+
+.custom-butt(@b-radius, @f-color, @bg-color) {
+    border-radius: @b-radius;
+    background-color: @bg-color;
+    color: @f-color;
+}
+
+.custom-butt-ani(@curs, @trans, @bg-color) {
+    transition: @trans;
+    background-color: @bg-color;
+    cursor: @curs;
+}
+
+.align-column(@disp, @f-direction, @align-i) {
+    display: @disp;
+    flex-direction: @f-direction;
+    align-items: @align-i;
+}
