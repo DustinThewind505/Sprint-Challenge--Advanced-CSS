@@ -390,7 +390,7 @@ form input {
 }
 form #dropdown {
   height: 2%;
-  width: 400px;
+  width: 100%;
   font-weight: bold;
 }
 form textarea {
