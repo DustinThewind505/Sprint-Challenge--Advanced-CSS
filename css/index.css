@@ -163,6 +163,21 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+button {
+  border-radius: 5px;
+  background-color: #22283A;
+  color: #F6F7F8;
+  font-size: medium;
+  width: 100px;
+  padding: 5px 0;
+  text-align: center;
+}
+button:hover {
+  color: #22283A;
+  transition: 1s;
+  background-color: #F6F6F6;
+  cursor: url(http://cur.cursors-4u.net/mechanics/mec-1/mec5.cur), default;
+}
 .nav-header {
   display: flex;
   flex-direction: column;
